@@ -33,15 +33,16 @@ function Header() {
                 </div>
 
                 {/* Heading */}
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-snug tracking-tight">
-                    <span className="bg-gradient-to-r from-neutral-800 via-gray-700 to-neutral-900 dark:from-gray-100 dark:via-gray-300 dark:to-gray-100 bg-clip-text text-transparent">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-snug tracking-tight text-center">
+                    <span className="bg-gradient-to-r from-blue-500 via-cyan-400 to-sky-500 bg-clip-text text-transparent">
                         Share Your
                     </span>
                     <br className="hidden sm:block" />
-                    <span className="bg-gradient-to-r from-indigo-600 via-sky-500 to-emerald-500 bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-r from-sky-400 via-indigo-400 to-purple-500 bg-clip-text text-transparent">
                         Story with Style
                     </span>
                 </h1>
+
 
                 {/* Description */}
                 <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300">
