@@ -13,13 +13,7 @@ const app = express();
 
 await connectDB();
 
-app.get('/', (req, res) => {
-    res.send({
-        activeStatus: true,
-        error: false,
 
-    })
-})
 
 // Middleware
 app.use(cors());
